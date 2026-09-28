@@ -2,7 +2,7 @@ Hello everyone!
 
 I want to share an experimental project I’ve been building as a passionate hobby: **Rose (RoseScript Canvas)**, a statically-typed declarative UI language designed for ultra-lightweight, hardware-accelerated desktop interfaces. 
 
-To be completely transparent—I am not a professional compiler engineer. I built this out of love for clean UI design and a frustration with modern desktop frameworks. I wanted something as simple and reactive as web development (Svelte/React-style) but with the raw, uncompromising speed of a native compiled systems language.
+I’ll be honest with you: I’m not a programmer at all. I wrote all of this with the help of AI, so I don’t know how you’ll react to it. This project is just a hobby—I’ve only been working on it for a month—but I’ve enjoyed it so much that I really want it to become popular. I realize there aren't any libraries for it and that it might not be grabbing much of your attention... But again, I’m not a programmer; I don’t see things the way you do... :(
 
 ### 🚀 What makes it unique?
 * **Zero-Cost Memory Management (No GC):** The compiler tracks the resource lifecycles (`Alive`, `HandedOver`, `InDebt`) across a customized Control Flow Graph (CFG) at compile time. No heavy garbage collector, no micro-stutters during animations.
